@@ -1,0 +1,6 @@
+git config --global user.name "Pranaya Deomani"
+git config --global user.email "deomanipranaya007@gmail.com"
+git config --global credential.helper "cache --timeout=7200"
+git config --global color.ui "auto"
+git config --global core.editor "nano -w"
+git config --global merge.tool "meld"
