@@ -15,7 +15,7 @@ sudo apt install -y openjdk-11-jdk-headless openjdk-11-jre-headless repo apache2
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 
 echo "Installing repo"
-curl https://github.com/akhilnarang/repo/raw/master/repo > ~/repo
+curl https://raw.githubusercontent.com/akhilnarang/repo/master/repo > ~/repo
 chmod a+x ~/repo
 sudo install ~/repo /usr/local/bin
 rm ~/repo
