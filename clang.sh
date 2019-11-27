@@ -14,7 +14,7 @@ export SUBARCH=arm64
 export KBUILD_BUILD_USER=deomani007
 export KBUILD_BUILD_HOST=serber
 
-make O=out ARCH=arm64 santoni_defconfig
+make O=out ARCH=arm64 santoni_treble_defconfig
 
 PATH="$(pwd)/clang/bin:$(pwd)/gcc64/bin:$(pwd)/gcc32/bin:${PATH}" \
 make -j$(nproc --all) O=out \
