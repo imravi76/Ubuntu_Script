@@ -5,7 +5,7 @@
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 
 echo "Installing build dependencies"
-sudo apt install -y openjdk-11-jdk-headless openjdk-11-jre-headless repo apache2 bc bison build-essential ccache curl flex \
+sudo apt install -y openjdk-11-jdk-headless openjdk-11-jre-headless repo apache2 bc bison build-essential ccache curl flex jq \
                     g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev curl \
                     liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush \
                     rsync schedtool squashfs-tools xsltproc zip zlib1g-dev git-core gnupg flex bison gperf build-essential zip \
