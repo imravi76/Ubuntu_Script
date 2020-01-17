@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Script to setup an AOSP build environment on Ubuntu 18 and newer releases
+# Script to setup an AI build environment on Ubuntu 18 and newer releases
 
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 
