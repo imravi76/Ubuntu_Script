@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 echo "Hello World, I'm Ravi!"
 echo "This is your current directory"
 pwd
