@@ -1,5 +1,5 @@
-git config --global user.name "Ravi Singh"
-git config --global user.email "ravi.singh4230@gmail.com"
+git config --global user.name "Your Name"
+git config --global user.email "example@gmail.com"
 git config --global credential.helper "cache --timeout=7200"
 git config --global color.ui "auto"
 git config --global core.editor "nano -w"
